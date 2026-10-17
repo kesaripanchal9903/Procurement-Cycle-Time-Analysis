@@ -16,21 +16,21 @@ The analysis evaluates turnaround time(TAT) across the Purchase Requisition(PR),
 ## Tools and Technologies
 - SAP: Procurement data extraction
 - Excel: Data analysis and monthly reporting
-- Pivot Table: Data summarization and categorization
+- PivotTable: Data summarization and categorization
 - Bar Chart: Comparison of avg. turnaround times across procurement stages.
 - Pie Chart: Visualization of transaction distribution across turnaround-time categories
-- Condition Formatting: Highlighting turnaround-time patterns and areas requiring attention
+- Conditional Formatting: Highlighting turnaround-time patterns and areas requiring attention
 
 ## Analysis Methodology
-#1. Process-wise Turnaround Time Analysis
+### 1. Process-wise Turnaround Time Analysis
 Analyzed the avg. turnaround time for the following procurement stages:
 - PR to PO: Time taken to convert a Purchase requisition to Purchase Order.
-- PO to GRN: Time taken from purchase order creation to good receipt.
-- PR to GRN: Total turnaround time from purchase requisition to good receipt
+- PO to GRN: Time taken from purchase order creation to goods receipt.
+- PR to GRN: Total turnaround time from purchase requisition to goods receipt
 Bar charts were used to compare avg. processing times for raw material and packaging materials.
 
-#2. Raw Material(RM) PR-to-PO analysis
-Analysed the time taken to convert raw material purchase requisitions into purchase orders.
+### 2. Raw Material(RM) PR-to-PO analysis
+Analyzed the time taken to convert raw material purchase requisitions into purchase orders.
 Transactions were categorized into turnaround-time buckets:
 | Bucket | Criteria |
 |---|---|
@@ -41,14 +41,14 @@ Transactions were categorized into turnaround-time buckets:
 
 Tables and Pie charts were used to summarize transaction counts and percentage distributions across categories. Written interpretations were included to highlight key observations and potential areas for improvement.
 
-#3. Packaging Material(PM) PR-to-PO Analysis
+### 3. Packaging Material(PM) PR-to-PO Analysis
 Applied the same turnaround-time classification to packaging material transaction to evaluate requisition to order processing patterns.
 Visualization and supporting interpretations helped compare turnaround-time distributions between raw material and packaging materials.
 
-#4. Plant-wise Analysis
+### 4. Plant-wise Analysis
 Performed procurement cycle-time analysis for all three manufacturing plants to review process performance and identify differences in turnaround-time patterns across locations.
 
-#5. Management Summary
+### 5. Management Summary
 Consolidated the findings into a management summary covering key procurement performance observations, process-wise turnaround times, and potential areas requiring further investigation.
 
 ## Key Analytical Areas
@@ -67,10 +67,13 @@ It supported regular monitoring of turnaround times, highlighted potential delay
 
 # Skill Demonstrated
 - Data cleaning and summarization
-- procurement and operational analystics
+- procurement and operational analytics
 - Excel tables and conditional formatting
 - Data visualization and interpretation
 - Monthly MIS reporting
 - Management reporting and communication
 
+## Confidentiality
+
+This repository documents the project's objectives, analytical methodology, and reporting approach. Company-confidential SAP data, supplier details, material-level records, and internal management reports are excluded.
 
